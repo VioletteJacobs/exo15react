@@ -7,7 +7,7 @@ function App() {
   const [tortue, setTortue] = useState([{titre:"Harry Potter",durée:"2h"},{titre:"Narnia",durée:"1h30"}, {titre:"les 1001 dalmatiens", durée: "1h39"}]);
   return (
     <div className="App">
-      <Article film={tortue}/>
+      <Article durée={tortue}/>
     </div>
   );
 }
