@@ -4,10 +4,10 @@ import Article from "./components/Article"
 import React, {useState} from "react"
 
 function App() {
-  const [titre, setTitre] = useState([{titre:"Harry Potter"},{titre:"Narnia"}, {titre:"les 1001 dalmatiens"}]);
+  const [tortue, setTortue] = useState([{titre:"Harry Potter",durée:"2h"},{titre:"Narnia",durée:"1h30"}, {titre:"les 1001 dalmatiens", durée: "1h39"}]);
   return (
     <div className="App">
-      <Article titre={titre}/>
+      <Article film={tortue}/>
     </div>
   );
 }
